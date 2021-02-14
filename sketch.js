@@ -994,14 +994,14 @@ function draw() {
       if (camera1.rotation > 225){
         camera1.rotationSpeed = -2;
       }
-      else if(camera1.rotation < 135) {
+      if(camera1.rotation < 135) {
         camera1.rotationSpeed = 2;
       }
 
       if (camera2.rotation > 45) {
         camera2.rotationSpeed = -2;
       }
-      else if (camera2.rotation < -45){
+      if (camera2.rotation < -45){
         camera2.rotationSpeed = 2;
       }
 
